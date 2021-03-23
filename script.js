@@ -25,11 +25,9 @@ let myFunction = (a, b) => a + b;
 console.log(myFunction(9, 10));
 
 //  deel D
-let addFive = (a) => a + 5;
+let addFive = a => a + 5;
 console.log(addFive(6));
 
 //  deel E
-let createObject = () => {
-  greeting: "hoi";
-};
+let createObject = () => ({greeting: "hoi"});
 console.log(createObject());
